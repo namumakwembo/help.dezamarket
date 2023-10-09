@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Helpers\Helper;
+use Illuminate\Http\Request;
+
+class PagesController extends Controller
+{
+
+      public function privacy()
+    {
+        Helper::seo('Privacy Policy', 'Read our Privacy Policy to understand how we handle your data and information. Stay informed about any policy updates.');
+        return view('pages.privacy');
+    }
+
+     public function terms()
+    {
+        Helper::seo('Terms and Conditions', 'Review our Terms and Conditions to learn about the rules and guidelines governing your use of Dezamarket. Be aware of any policy changes.');
+        return view('pages.terms');
+    }
+
+    public function about()
+    {
+        Helper::seo('About Dezamarket', 'Learn about Dezamarket, the online marketplace platform designed to connect buyers and sellers in Zambia. Discover our mission and vision.');
+        return view('pages.about');
+    }
+    
+
+}
