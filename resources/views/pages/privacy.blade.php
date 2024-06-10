@@ -28,7 +28,7 @@
 # Privacy and data protection
 
 ----------
-Updated October 9 2023
+Updated June 10 2024
 ----------
 
 Welcome to Dezamarket! Please take a moment to review our Privacy Policy carefully. Your engagement with the Dezamarket website and platform implies your consent to abide by this Privacy Policy.
@@ -143,6 +143,27 @@ We offer the option to use location services on your device to enhance your expe
 
 ## 25. Theme and Device Information:
 We may store theme preferences and device information on your device to personalize your experience on Dezamarket. Rest assured, we do not share this information with others.
+
+Here is a revised version of your privacy policy section with corrections for grammar and clarity:
+
+---
+
+## 26. Delete Your Dezamarket Account:
+
+When you delete your account, your profile, photos, messages, conversations, listings, listing photos, favorites, and access tokens will be permanently removed. Note: other users you shared a conversation with may still retain a copy of the messages until they also delete them permanently.
+
+For security reasons, we can't delete an account for you. You’ll need to log into your account to request deletion. If you can't remember your password or username, you can request a new password to gain access to your account.
+
+### To Request Permanent Deletion:
+1. Go to your profile page.
+2. Click on the Settings or Edit Profile button.
+3. Once you're on the settings page, scroll down and find the Delete Account section.
+4. Click on the Delete Account button. For security, a confirmation email will be sent to the email associated with the account to confirm the deletion request.
+5. Enter the code and confirm to start the account deletion process.
+
+Note: Once your account is deleted, you cannot log in or sign up using the same email.
+
+---
 
 That's it! These sections cover important aspects of using Dezamarket.
 
