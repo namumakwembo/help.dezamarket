@@ -22,5 +22,8 @@ Route::get('/privacy', [PagesController::class,'privacy'])->name('privacy');
 Route::get('/terms', [PagesController::class,'terms'])->name('terms');
 Route::get('/about', [PagesController::class,'about'])->name('about');
 
+Route::get('/download', [PagesController::class,'download'])->name('download');
+
+
 
 

@@ -36,7 +36,7 @@
 <body class="antialiased bg-white dark:bg-gray-900 ">
 
     @include('layouts.navigation')
-    <main class="min-h-screen container px-6 lg:px-12">
+    <main class="min-h-screen  w-full px-6 lg:px-12">
 
         @yield('content', $slot ?? '')
 

@@ -25,6 +25,15 @@ class PagesController extends Controller
         Helper::seo('About Dezamarket', 'Learn about Dezamarket, the online marketplace platform designed to connect buyers and sellers in Zambia. Discover our mission and vision.');
         return view('pages.about');
     }
+
+
+
+    public function download()
+    {
+        Helper::seo('Download', 'Download Dezamarket on your mobile device, tablet, or desktop and start buying and selling quickly. Reach a huge customer base in Zambia. Free to use!');
+        return view('pages.download');
+    }
+    
     
 
 }
