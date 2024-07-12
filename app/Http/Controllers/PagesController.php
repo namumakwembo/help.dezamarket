@@ -28,9 +28,20 @@ class PagesController extends Controller
 
 
 
-    public function download()
+    public function download(Request $request)
     {
         Helper::seo('Download', 'Download Dezamarket on your mobile device, tablet, or desktop and start buying and selling quickly. Reach a huge customer base in Zambia. Free to use!');
+       
+        $userAgent = $request->header('User-Agent');
+        $isAndroid = stripos($userAgent, 'android') !== false;
+        $isMobile = stripos($userAgent, 'mobile') !== false;
+
+        if ($isAndroid && $isMobile) {
+            // redirect to playstore
+            $playStoreUrl = 'https://play.google.com/store/apps/details?id=com.dezamarket.app';
+            return redirect()->away($playStoreUrl);
+        }
+
         return view('pages.download');
     }
     
